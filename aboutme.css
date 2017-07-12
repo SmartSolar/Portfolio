@@ -16,13 +16,41 @@ h2 {
    text-align:right;
   
 }
+
+#Me {
+  width:160px;
+  height:190px;
+  align:paragrpah-left;
+} 
+
 h3 {
   text-align:center ;
  }
 
+#kittens {
+  width:200px; 
+  height: 120px;
+  align:middle; 
+}
+
+#Bubble {
+  width: 200px; 
+  height: 120px;
+}
+
+#Code {
+  width:300px;
+  height:320px;
+}
+
 h4 {
   text-align:center ;
  }
+
+#orange #Ads #Loud {
+  width:140px;
+  height: 140px;
+}
 
 h5 {
   text-align:center ;
