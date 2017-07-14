@@ -28,7 +28,7 @@ h2 {
 #Me {
   width:160px;
   height:190px;
-  align:paragraph-left;
+  float: left
 }
 
 h3 {
@@ -39,7 +39,7 @@ h3 {
 #kittens  {
   width:200px; 
   height: 120px;
-  float: middle; 
+  
 }
 
 #Bubble {
