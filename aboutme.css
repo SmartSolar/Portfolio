@@ -27,7 +27,6 @@ h2 {
 #Me {
   width:160px;
   height:190px;
-  float: left
 }
 
 h3 {
@@ -38,17 +37,19 @@ h3 {
 #kittens  {
   width:200px; 
   height: 120px;
-  
+  float: left;
 }
 
 #Bubble {
   width: 200px; 
   height: 120px;
+  float: left;
 }
 
 #Code {
   width:300px;
   height:320px;
+  float: left;
 }
 
 h4 {
@@ -58,6 +59,7 @@ h4 {
 #orange #Ads #Loud {
   width:140px;
   height: 140px;
+  float: left;
 }
 
 h5 {
@@ -67,16 +69,19 @@ h5 {
 #Udacity {
   width:340px;
   height:200px;
+  float: left;
 }
 
 #Youtube {
   width:340px;
   height:280px;
+  float: left;
 }
 
 #Codeacdamy {
   width:240px;
   height:240px;
+  float: left;
 }
 
 
