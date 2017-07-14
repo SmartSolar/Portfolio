@@ -17,6 +17,10 @@ h2 {
   
 }
 
+.Column-one {
+  border-color: red;
+}
+
 #Me {
   width:160px;
   height:190px;
