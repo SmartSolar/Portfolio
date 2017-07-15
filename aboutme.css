@@ -22,8 +22,6 @@ h2 {
     padding: 15px;
     max-width: 300px;
     height: 300px;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
 } 
 
 #Me {
