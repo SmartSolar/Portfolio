@@ -12,13 +12,6 @@ h1 {
   text-align:center;
  }
 
-#Me {
-  width:160px;
-  height:190px;
-  padding: 20px;
-  float: left;
-}
-
 h2 {
    text-align:right;
 }
@@ -36,27 +29,6 @@ h3 {
   vertical-align:middle;
  }
 
-#kittens  {
-  width:200px; 
-  height: 120px;
-  float: left;
-  padding: 20px;
-}
-
-#Bubble {
-  width: 200px; 
-  height: 120px ;
-  float: left;
-  padding: 20px;
-}
-
-#Code {
-  width:350px;
-  height:320px;
-  float: left;
-  padding: 20px;
-}
-
 h4 {
   text-align:center ;
  }
@@ -71,19 +43,4 @@ h4 {
 h5 {
   text-align:center;
  }
-
-#Udacity {
-  width:340px;
-  height:200px;
-  float: left;
-  padding: 20px;
-}
-
-
-#Codeacdamy  {
-  width:240px;
-  height:240px;
-  float: left;
-  padding: 20px;
-}
 
