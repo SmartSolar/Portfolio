@@ -36,15 +36,11 @@ h3 {
   vertical-align:middle;
  }
 
-.row1 {
-  float: left;
-}
-
 #kittens  {
   width:200px; 
   height:  120px;
   padding: 10px;
-  float: top;
+  float: left;
 }
 
 #Bubble {
