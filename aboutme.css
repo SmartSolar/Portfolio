@@ -12,6 +12,13 @@ h1 {
   text-align:center;
  }
 
+#Me {
+  width:160px;
+  height:190px;
+  padding: 20px;
+  float: left;
+}
+
 h2 {
    text-align:right;
 }
@@ -29,8 +36,29 @@ h3 {
   vertical-align:middle;
  }
 
+#kittens  {
+  width:200px; 
+  height: 120px;
+  float: left;
+  padding: 20px;
+}
+
+#Bubble {
+  width: 200px; 
+  height: 120px ;
+  float: left;
+  padding: 20px;
+}
+
+#Code {
+  width:350px;
+  height:320px;
+  float: left;
+  padding: 20px;
+}
+
 h4 {
-  text-align:center;
+  text-align:center ;
  }
 
 #orange #Ads #Loud {
@@ -44,33 +72,9 @@ h5 {
   text-align:center;
  }
 
-#Me {
-  width:160px;
-  height:190px;
-  
-
-padding: 20px;
-  float: left;
-}
-
-#kittens  {
-  width:200px; 
-  height: 
-
-120px;
-  float: left;
-  padding: 20px;
-}
-
-#Bubble {
-  width: 200px; 
-  height: 120px ;
-  float: left;
-  padding: 20px;
-}
-#Code {
-  width:350px;
-  height:320px;
+#Udacity {
+  width:340px;
+  height:200px;
   float: left;
   padding: 20px;
 }
@@ -78,13 +82,6 @@ padding: 20px;
 #Youtube {
   width:340px;
   height:280px;
-  float: left;
-  padding: 20px;
-} 
-
-#Udacity {
-  width:340px;
-  height:200px;
   float: left;
   padding: 20px;
 }
@@ -95,4 +92,3 @@ padding: 20px;
   float: left;
   padding: 20px;
 }
-
