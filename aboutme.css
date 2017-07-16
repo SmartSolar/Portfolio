@@ -36,6 +36,12 @@ h3 {
   vertical-align:middle;
  }
 
+#kittens  {
+  width:200px; 
+  height: 120px;
+  float: left;
+  padding: 20px;
+}
 
 #Bubble {
   width: 200px; 
@@ -73,12 +79,6 @@ h5 {
   padding: 20px;
 }
 
-#Youtube {
-  width:340px;
-  height:280px;
-  float: left;
-  padding: 20px;
-}
 
 #Codeacdamy  {
   width:240px;
