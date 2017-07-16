@@ -69,7 +69,8 @@ h4 {
 #orange #Ads #Loud {
   width:140px;
   height: 140px;
-  padding: 20px;
+  float: top; 
+  padding: 10px;
 }
 
 #Loud {
