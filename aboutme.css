@@ -66,9 +66,9 @@ h3 {
 }
 
 h4 {
-  text-align: center;
-  float: top; 
-  vertical-align: middle; 
+   position: absolute;
+   left: 100px;
+   top: 150px;
  }
 
 #orange #Ads {
