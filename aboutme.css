@@ -70,6 +70,7 @@ h4 {
    left: 500px;
    top: 2600px;
    padding: 25px;
+   float: top; 
  }
 
 #orange #Ads {
