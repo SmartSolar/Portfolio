@@ -30,7 +30,8 @@ h2 {
     padding: 15px;
     border-color: black; 
     border: dotted;
-    position: absolute; 
+    max-width: 350px;
+    height: 1290px; 
 }  
 
 h3 {
