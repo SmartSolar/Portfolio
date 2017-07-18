@@ -115,4 +115,6 @@ h5 {
 .Fun {
   max-width: 325px;
   hight: 300px;
+  border: dotted; 
+  border-color: black;
 }
