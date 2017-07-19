@@ -44,7 +44,8 @@ h3 {
   width: 200px; 
   height: 120px;
   padding: 10px;
-  float: center;
+  float: top;
+  left: 200px;
 }
 
 #Bubble {
