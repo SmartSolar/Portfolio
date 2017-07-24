@@ -144,6 +144,12 @@ h5 {
 }
 
 #demo {
-  border-color: blue;
-  
+   background-color: light-blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
 }
