@@ -6,7 +6,16 @@ body {
   border-color: black; 
   border-thickness: 9px;  
   background-color: #FFB6C1;
-  }  
+  }
+
+#Menu {
+  border-color: black ;
+  font-color: white ;
+  text-decoration: none ; 
+  background-color: black ;
+  text-align: center ;
+  height: 80px ; 
+}
 
 #construction {
   float: bottom; 
