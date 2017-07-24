@@ -156,6 +156,8 @@ h5 {
     border-radius: 12px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 #demo:hover {
