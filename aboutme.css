@@ -158,8 +158,15 @@ h5 {
     transition-duration: 0.4s;
 }
 
-
 #demo:hover {
     background-color: #4CAF50; /* Green */
     color: white;
 }
+
+#demo span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
