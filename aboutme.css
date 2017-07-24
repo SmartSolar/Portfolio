@@ -40,6 +40,7 @@ h2 {
     height: absolute; 
     border-color: black; 
     border: dotted;
+    background-color: gray; 
 }   
  
 h3 {    
