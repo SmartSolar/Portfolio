@@ -11,6 +11,18 @@
       alert("Welcome to my Site!");
       </script>
     
+    <script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>About Shamima</title> 
 </head>  
@@ -18,7 +30,8 @@
    
 <h1><b>About Me</b></h1>  
 <h2>Shamima Sharmin</h2> 
- <img id="Me" src="http://www.pngmart.com/files/4/Cute-Cartoon-Girl-PNG-Transparent-Picture.png" alt="Cartoon girl">
+ <img id="Me" src="http://www.pngmart.com/files/4/Cute-Cartoon-Girl-PNG-Transparent-Picture.png" alt="Cartoon girl" 
+      onmouseover="bigImg(this)" onmouseout="normalImg(this)">
   
   <p style="text-align:right;">
     I`m a current student at Midwood High School and <br> 
@@ -37,19 +50,22 @@
   <div class="row1">
     <div class="column">
   <h3><b>Likes</b></h3> 
- <img id="kittens" src="http://www.critterbabies.com/wp-content/gallery/kittens/cats-animals-kittens-background-us.jpg" alt="Kitten" > 
+ <img id="kittens" src="http://www.critterbabies.com/wp-content/gallery/kittens/cats-animals-kittens-background-us.jpg" 
+       onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Kitten" > 
     <p>I think kittens are adorable! Sadly I dont have <br> 
       a kitten of my own but in the near future I would definitely get one! </p>  
   </div>
        
   <div class="column">
-  <img id="Bubble" src="https://img.grouponcdn.com/deal/sTNpcAQhCD6vg2gN6eea/Xt-2048x1229/v1/c700x420.jpg" alt="Bubble Tea"> 
+  <img id="Bubble" src="https://img.grouponcdn.com/deal/sTNpcAQhCD6vg2gN6eea/Xt-2048x1229/v1/c700x420.jpg" 
+        onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Bubble Tea"> 
       <p>Bubble Tea! My favorite is Tairo.<br>
         I usually drink them when Im feeling stressed or tired.</p>
   </div>
   
   <div class="column">
-  <img id="Code" src="http://thenewswheel.com/wp-content/uploads/2015/12/girls-who-code-logo.jpg" alt="Girls Who Code Logo"> 
+  <img id="Code" src="http://thenewswheel.com/wp-content/uploads/2015/12/girls-who-code-logo.jpg" 
+        onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Girls Who Code Logo"> 
      <p>Without this program I wouldnt have been able to meet girls who had <br> 
        the same interests as me. Most of the girls in my school want to <br>
        be doctors or some kind of business person. </p>
@@ -59,7 +75,8 @@
    <div class="row2"> 
   <div class="column">
     <h4><b>Dislikes</b></h4> 
- <img id="orange" src="https://t3.ftcdn.net/jpg/00/99/56/26/240_F_99562611_EIZ4AssrFTz1UNyOmM8KAChSeQNu5nMA.jpg" alt="Orange"> 
+ <img id="orange" src="https://t3.ftcdn.net/jpg/00/99/56/26/240_F_99562611_EIZ4AssrFTz1UNyOmM8KAChSeQNu5nMA.jpg"
+       onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Orange"> 
      <p>I don`t like oranges due to its acidity. <br>
           I don`t eat them often or at not all even. <br>
           To be honest I barely eat any fruits besides apples. <br>
@@ -68,7 +85,8 @@
   </div>
 
   <div class="column">
-<img id="Ads" src="http://adsoftheworld.com/apple-touch-icon.png" alt="Ads"> 
+<img id="Ads" src="http://adsoftheworld.com/apple-touch-icon.png"
+      onmouseover="bigImg(this)" onmouseout="normalImg(this)"alt="Ads"> 
     <p>Too many ads! <br>
          Ads are okay until <br>
          they slow down your internet speed. Like I don`t even get a chance <br>
@@ -78,7 +96,8 @@
   </div>
   
   <div class="column">
-<img id="Loud" src="http://cdn.list25.com/wp-content/uploads/2012/03/stadium.png" alt="Football Stadium"> 
+<img id="Loud" src="http://cdn.list25.com/wp-content/uploads/2012/03/stadium.png"
+      onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Football Stadium"> 
     <p> Loud Places with a lot of people. <br>
          I barely go to places with a lot of people due <br> 
          to the noises and a lot of things happening all at once. <br>
@@ -88,7 +107,8 @@
    
   <div class="column"> 
   <h5><b>Fav Websites</b></h5>
-<img id="Udacity" src="https://d125fmws0bore1.cloudfront.net/assets/udacity_share-46db4b8faf075a5af5a1070a7fa0ad3639783609ff45f447e4ea467fe3aa9d32.png" alt="Udacity Logo">
+<img id="Udacity" src="https://d125fmws0bore1.cloudfront.net/assets/udacity_share-46db4b8faf075a5af5a1070a7fa0ad3639783609ff45f447e4ea467fe3aa9d32.png" 
+      onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Udacity Logo">
       <p>To Udacity`s online classes, I have felt more confident. <br>
          I learned most of my html from them. <br>
          They also kind of keep you from not coming back to class.<br>
@@ -97,7 +117,8 @@
   </div>
   
   <div class="column">
-<img id="Codeacdamy" src="https://blog.optimizely.com/wp-content/uploads/2014/10/codecademy-logo-e1413249893959.png" alt="Codeacdemy Logo"> 
+<img id="Codeacdamy" src="https://blog.optimizely.com/wp-content/uploads/2014/10/codecademy-logo-e1413249893959.png" 
+      onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Codeacdemy Logo"> 
     <p> Codeacadamy was the very first thing that taught me to code. <br>
         Most of my teachers in middle school introduced it to me. <br>
         Its considered a starting piont for <br>
@@ -106,7 +127,8 @@
   </div>
   
  <div class="column">
- <img id="Youtube" src="http://www.logoeps.com/wp-content/uploads/2011/02/youtube-logo-vector.png" alt="Youtube"> 
+ <img id="Youtube" src="http://www.logoeps.com/wp-content/uploads/2011/02/youtube-logo-vector.png" 
+       onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Youtube"> 
     <p> Youtube is one of the few ways I connect with the world. <br>
          I also watch LastWeekTonight and TheDailyShow <br>
          to relax but also be informed about the world. <br> 
