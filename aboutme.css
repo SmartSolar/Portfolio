@@ -53,7 +53,7 @@ h3 {
 #Bubble {
   width: 300px; 
   height: 200px;
-  padding: 20px;
+  padding: 10px;
   float: top;
   margin-left: auto;
   margin-right: auto;
@@ -63,7 +63,7 @@ h3 {
 #Code {
   width: 350px;
   height: 300px;
-  padding: 20px;
+  padding: 10px;
   float: top;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +76,7 @@ h4 {
  }
 
 .row2 {
-  padding: 20px;
+  padding: 10px;
 }
 
 #orange {
@@ -92,7 +92,6 @@ h4 {
   width: 200px;
   height: 200px;
   float: top; 
-  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -101,7 +100,6 @@ h4 {
 #Loud {
   width: 300px;
   height: 200px;
-  padding: 10px; 
   float: top;
   margin-left: auto;
   margin-right: auto;
@@ -116,7 +114,6 @@ h5 {
 #Udacity {
   width: 340px;
   height: 200px;
-  padding: 20px;
   float: top;
   margin-left: auto;
   margin-right: auto;
@@ -126,7 +123,6 @@ h5 {
 #Youtube {
   width: 340px;
   height: 280px;
-  padding: 20px;
   float: top;
   margin-left: auto;
   margin-right: auto;
@@ -136,7 +132,6 @@ h5 {
 #Codeacdamy {
   width: 240px;
   height: 240px;
-  padding: 20px;
   float: top;
   margin-left: auto;
   margin-right: auto;
