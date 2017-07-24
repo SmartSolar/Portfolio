@@ -181,3 +181,11 @@ h5 {
   transition: 0.5s;
 }
 
+#demo:hover span {
+  padding-right: 25px;
+}
+
+#demo:hover span:after {
+  opacity: 1;
+  right: 0;
+}
