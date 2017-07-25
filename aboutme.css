@@ -64,19 +64,12 @@ h3 {
   overflow: hidden;
 }
 
-#kittens {
-  width: 100%;
-}
-
 kittens {
   position: absolute;
   bottom: -30px;
-  left: 0;
-  width: 100%;
   opacity: 0;
   box-sizing: border-box;
   color: #fff;
-  padding: 10px 20px;
 }
 .column p {
   font-size: 12px;
