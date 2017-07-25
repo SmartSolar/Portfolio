@@ -58,28 +58,6 @@ h3 {
   display: block;
 }
 
-#kittens {
-  width: 400px;
-  position: relative;
-  overflow: hidden;
-}
-
-#kittens {
-  position: absolute;
-  bottom: -30px;
-  opacity: 0;
-  box-sizing: border-box;
-  color: #fff;
-}
-.column p {
-  font-size: 50px;
-  margin: 4px 0 14px;
-}
-#kittens:hover .column {
-  opacity: 1;
-  bottom: -5px;
-}
-
 #Bubble {
   width: 300px; 
   height: 200px;
