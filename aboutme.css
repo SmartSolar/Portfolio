@@ -12,7 +12,7 @@ body {
   border-color: black ;  
   font-color: white ;  
   text-decoration: none ; 
-  background-color: black ;
+  background-color: #d8d8d8 ;
   text-align: center ;
   height: 80px ; 
 }
@@ -40,7 +40,7 @@ h2 {
     height: absolute; 
     border-color: black; 
     border: dotted;
-    background-color: #e5e5e5; 
+    background-color: #d8d8d8; 
 }   
  
 h3 {    
