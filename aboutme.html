@@ -36,7 +36,6 @@ function createDocumentStructure (tagName) {
         return;
       }
     }
-    createCollapseExpandAll(elements[0]);
   }
 }
 
@@ -70,47 +69,6 @@ function collapseExpandLink (evt) {
   }
   return false;
 }
-
-function createCollapseExpandAll (firstElement) {
-  var div;
-  if (document.createElement && (div = document.createElement('div'))) {
-    var link = document.createElement('a');
-    link.href = '#';
-    link.appendChild(document.createTextNode('expand all'));
-    link.onclick = expandAll;
-    div.appendChild(link);
-    div.appendChild(document.createTextNode(' '));
-    link = document.createElement('a');
-    link.href = '#';
-    link.appendChild(document.createTextNode('collapse all'));
-    link.onclick = collapseAll;
-    div.appendChild(link);
-    firstElement.parentNode.insertBefore(div, firstElement);
-  }
-}
-
-function expandAll (evt) {
-  for (var i = 0; i < collapseDivs.length; i++) {
-    collapseDivs[i].style.display = '';
-    collapseLinks[i].firstChild.nodeValue = 'collapse';
-  }
-  
-  if (evt && evt.preventDefault) {
-    evt.preventDefault();
-  }
-  return false;
-}
-
-function collapseAll (evt) {
-  for (var i = 0; i < collapseDivs.length; i++) {
-    collapseDivs[i].style.display = 'none';
-    collapseLinks[i].firstChild.nodeValue = 'expand';
-  }
-  
-  if (evt && evt.preventDefault) {
-    evt.preventDefault();
-  }
-  return false;
 }
 </script>
 <script type="text/javascript">
