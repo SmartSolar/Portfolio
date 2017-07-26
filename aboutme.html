@@ -1,82 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    ------------------------------------------------------------------------------------------------------
-    <script type="text/javascript">
-var collapseDivs, collapseLinks;
- 
-function createDocumentStructure (tagName) { 
-  if (document.getElementsByTagName) {  
-    var elements = document.getElementsByTagName(tagName);
-    collapseDivs = new Array(elements.length);
-    collapseLinks = new Array(elements.length);  
-    for (var i = 0; i < elements.length; i++) { 
-      var element = elements[i];
-      var siblingContainer;
-      if (document.createElement && 
-          (siblingContainer = document.createElement('div')) &&
-          siblingContainer.style) 
-      {
-        var nextSibling = element.nextSibling;
-        element.parentNode.insertBefore(siblingContainer, nextSibling);
-        var nextElement = elements[i + 1];
-        while (nextSibling != nextElement && nextSibling != null) {
-          var toMove = nextSibling;
-          nextSibling = nextSibling.nextSibling;
-          siblingContainer.appendChild(toMove);
-        }
-        siblingContainer.style.display = 'none';
-        
-        collapseDivs[i] = siblingContainer;
-        
-        createCollapseLink(element, siblingContainer, i);
-      }
-      else {
-        // no dynamic creation of elements possible
-        return;
-      }
-    }
-  }
-}
-
-function createCollapseLink (element, siblingContainer, index) {
-  var span;
-  if (document.createElement && (span = document.createElement('span'))) {
-    span.appendChild(document.createTextNode(String.fromCharCode(160)));
-    var link = document.createElement('a');
-    link.collapseDiv = siblingContainer;
-    link.href = '#';
-    link.appendChild(document.createTextNode('expand'));
-    link.onclick = collapseExpandLink;
-    collapseLinks[index] = link;
-    span.appendChild(link);
-    element.appendChild(span);
-  }
-}
-
-function collapseExpandLink (evt) {
-  if (this.collapseDiv.style.display == '') {
-    this.parentNode.parentNode.nextSibling.style.display = 'none';
-    this.firstChild.nodeValue = 'expand';
-  }
-  else {
-    this.parentNode.parentNode.nextSibling.style.display = '';
-    this.firstChild.nodeValue = 'collapse';
-  }
-
-  if (evt && evt.preventDefault) {
-    evt.preventDefault();
-  }
-  return false;
-}
-}
-</script>
-<script type="text/javascript">
-window.onload = function (evt) {
-  createDocumentStructure('h1');
-}
-</script>
----------------------------------------------------------------------------------------------------------
     <link rel="stylesheet" href="aboutme.css">  
     <div id="Menu">
           <a href="aboutme.html">Home</a> 
@@ -103,7 +27,6 @@ function normalImg(x) {
     <title>About Shamima</title> 
 </head>  
 <body> 
-  <center>
 <h1><b>About Me</b></h1>  
 <h2>Shamima Sharmin</h2> 
  <img id="Me" src="http://www.pngmart.com/files/4/Cute-Cartoon-Girl-PNG-Transparent-Picture.png" alt="Cartoon girl" 
@@ -214,6 +137,5 @@ function myFunction() {
    document.getElementById("demo").innerHTML = "I cant swim.";
 } 
 </script>
-  </center>
 </body>
 </html>
