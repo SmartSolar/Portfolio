@@ -145,12 +145,11 @@ function normalImg(x) {
     <title>About Shamima</title> 
 </head>  
 <body> 
-   <center>
 <h1><b>About Me</b></h1>  
 <h2>Shamima Sharmin</h2> 
  <img id="Me" src="http://www.pngmart.com/files/4/Cute-Cartoon-Girl-PNG-Transparent-Picture.png" alt="Cartoon girl" 
       onmouseover="bigImg(this)" onmouseout="normalImg(this)">
-  
+
   <p style="text-align:right;">
     I`m a current student at Midwood High School and <br>   
     all of my interests revolve around engineering and tech. <br> 
@@ -165,6 +164,7 @@ function normalImg(x) {
   </p> 
   </div> 
   
+  <center>
     <div class="column">
   <h3><b>Likes</b></h3> 
  <img id="kittens" src="http://www.critterbabies.com/wp-content/gallery/kittens/cats-animals-kittens-background-us.jpg" 
@@ -172,13 +172,16 @@ function normalImg(x) {
     <p>I think kittens are adorable! Sadly I dont have <br> 
       a kitten of my own but in the near future I would definitely get one! </p>  
   </div>
-       
+  </center>
+  
+  <center>
   <div class="column">
   <img id="Bubble" src="https://img.grouponcdn.com/deal/sTNpcAQhCD6vg2gN6eea/Xt-2048x1229/v1/c700x420.jpg" 
         onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Bubble Tea"> 
       <p>Bubble Tea! My favorite is Tairo.<br>
         I usually drink them when Im feeling stressed or tired.</p>
   </div>
+  </center> 
   
   <div class="column">
   <img id="Code" src="http://thenewswheel.com/wp-content/uploads/2015/12/girls-who-code-logo.jpg" 
@@ -256,6 +259,5 @@ function myFunction() {
    document.getElementById("demo").innerHTML = "I cant swim.";
 } 
 </script>
-  </center>
 </body>
 </html>
