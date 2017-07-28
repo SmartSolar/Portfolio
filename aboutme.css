@@ -16,6 +16,19 @@ body {
   text-align: center ;
   height: 80px ; 
 }
+
+.expand {
+color: #000099;
+text-decoration: underline;
+font-style: italic;
+}
+.expandedblock {
+margin-left: 40px;
+margin-right: 2%;
+display: block;
+padding: 10px;
+background-color: #ffffff;
+} 
     
 h1 { 
   text-align: center;    
