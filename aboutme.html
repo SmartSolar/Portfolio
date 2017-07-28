@@ -28,34 +28,6 @@ function normalImg(x) {
 }
 </script>
     
-    <script> 
-   function ExpandOn(topicID){ 
-var expand=document.getElementById(topicID);
-if(!expand)return true; 
-     expand.style.display="block"
-return true; 
-}  
-function ExpandOff(topicID){
-var expand=document.getElementById(topicID); 
-if(!expand)return true; 
-expand.style.display="none"
-return true;
-}
-function ExpandToggle(topicID){
-var expand=document.getElementById(topicID);
-if(!expand)return true;
-if(expand.style.display=="none"){  
-  expand.style.display="block" 
-} else {
-expand.style.display="none"
-}
-return true;
-}
-  </script>
-    
-    [ <span id="Click" title="Click to see more" class="expand"
-            onClick="return ExpandToggle('topic1')">Click to see more</span>&nbsp;] 
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>About Shamima</title> 
 </head>   
@@ -84,15 +56,14 @@ return true;
     <div class="column">
   <h3><b>Likes</b></h3> 
       
+      <button id="kittens" type="button" onclick="alert('Hello world!')">Click Me!</button>
+      
+      
  <img id="kittens" src="http://www.critterbabies.com/wp-content/gallery/kittens/cats-animals-kittens-background-us.jpg" 
        onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Kitten" > 
-      
-      <div id="topic1" class="expandedblock" style="display:none">
     <p>I think kittens are adorable! Sadly I dont have <br> 
       a kitten of my own but in the near future I would definitely get one! </p>  
   </div>
-      
-  </div> 
 
   <div class="column">
   <img id="Bubble" src="https://img.grouponcdn.com/deal/sTNpcAQhCD6vg2gN6eea/Xt-2048x1229/v1/c700x420.jpg" 
