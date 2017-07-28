@@ -17,23 +17,6 @@ body {
   height: 80px ; 
 }
 
-.expand {
-color: #000099;
-text-decoration: underline;
-font-style: italic;
-}
-.expandedblock {
-margin-left: 40px;
-margin-right: 2%;
-padding: 10px;
-background-color: #ffffff;
-} 
-    
-#Click {
-  text-align: bottom ; 
-  
-  
-}
 h1 { 
   text-align: center;    
   text-align: top;   
