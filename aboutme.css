@@ -17,6 +17,10 @@ body {
   height: 80px ; 
 }
 
+.details {
+  align: center;
+}
+
 h1 { 
   text-align: center;    
   text-align: top;   
