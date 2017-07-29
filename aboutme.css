@@ -4,7 +4,7 @@ body {
   padding: 90px;  
   border: dotted;      
   border-color: black;                  
-  border-thickness: 9px;        
+  border-thickness: 6px;        
   background-color: #FFB6C1;      
   }         
    
@@ -80,10 +80,6 @@ h4 {
   text-align: center; 
  }
 
-.row2 {
-  padding: 10px;
-}
-
 #orange {
   width: 200px;
   height: 200px;
@@ -141,51 +137,4 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-
-#demo {
-   background-color: blue;
-    border: none;
-    color: white;
-    padding: 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 50px;
-    border-radius: 12px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-  transition: all 0.5s;
-  cursor: pointer;
-  vertical-align: center ;
-}
-
-#demo:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
-
-#demo span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-#demo span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#demo:hover span {
-  padding-right: 25px;
-}
-
-#demo:hover span:after {
-  opacity: 1;
-  right: 0;
 }
