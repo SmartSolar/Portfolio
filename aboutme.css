@@ -11,7 +11,7 @@ body {
 #Menu {   
   border-color: black ;    
   background-color: black ;
-  opacity: 8 ; 
+  background-opacity: .6 ; 
   text-align: center ;
   height: 80px ; 
   font-color: white; 
