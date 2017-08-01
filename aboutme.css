@@ -21,6 +21,10 @@ body {
   font-color: white ;
 }
 
+img {
+  opacity: 1
+}
+
 h1 { 
   text-align: center;    
   text-align: top;   
