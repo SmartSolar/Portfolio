@@ -17,6 +17,10 @@ body {
   height: 80px ; 
 }
 
+#Menu a {
+  text-decoration: none; 
+}
+
 #construction {
   float: bottom; 
 }
