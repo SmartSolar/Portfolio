@@ -27,7 +27,7 @@ img {
 h1 { 
   text-align: center;    
   text-align: top;   
-  border-style: solid;
+  border-bottom: solid;
   border-bottom-color: brown ;
  } 
 
