@@ -4,20 +4,6 @@ body {
   font-family: courier;    
   padding: 90px;
 }
-   
-#Menu {   
-  border-color: black ;    
-  background-color: black ;
-  opacity: .8 ; 
-  text-align: center ;
-  height: 80px ; 
-  padding: 20px ; 
-  display: block ; 
-}
-
-#Menu a {
-  text-decoration: none; 
-}
 
 .container {
   position: relative;
