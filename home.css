@@ -1,3 +1,22 @@
+body {
+  background-image: url("anime-scenery-wallpaper-background-Is-Cool-Wallpapers.jpg");
+  font-size: 260%; 
+  font-family: courier;   
+  padding: 90px;
+}
+
+#Menu {   
+  border-color: black ;    
+  background-color: black ;
+  opacity: .8 ; 
+  text-align: center ;
+  height: 80px ; 
+}
+
+#Menu a {
+  text-decoration: none; 
+}
+
 .container {
   position: relative;
   width: 50%;
