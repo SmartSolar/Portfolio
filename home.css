@@ -1,5 +1,5 @@
 body {
-  background: url("anime-scenery-wallpaper-background-Is-Cool-Wallpapers.jpg");
+  background-image: url("anime-scenery-wallpaper-background-Is-Cool-Wallpapers.jpg"); <!---why isnt it working?--->
   font-size: 260%; 
   font-family: courier;    
   padding: 90px;
@@ -12,7 +12,7 @@ h1 {
   opacity: .7 ;   
 }  
 
-h2 {
+h2 { <!---why isnt this working?--->
   border-bottom: solid; 
   border-bottom-color: Blue ; 
   background-color: LightGray ;
