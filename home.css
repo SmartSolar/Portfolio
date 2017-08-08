@@ -1,5 +1,6 @@
 body {
   background-image: url("http://bayobserver.ca/wp-content/uploads/2012/06/Solar-Panel4.jpg"); 
+  background-repeat: no-repeat;
   font-size: 200%; 
   font-family: courier;    
   padding: 90px;
