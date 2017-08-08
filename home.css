@@ -1,11 +1,11 @@
 body {
-  background-image: url("anime-scenery-wallpaper-background-Is-Cool-Wallpapers.jpg");
+  background: url("anime-scenery-wallpaper-background-Is-Cool-Wallpapers.jpg");
   font-size: 260%; 
   font-family: courier;    
   padding: 90px;
 }     
     
-h1 {    
+h1 {          
   border-bottom: solid;  
   border-bottom-color: DodgerBlue ; 
   background-color: LightGray ;
