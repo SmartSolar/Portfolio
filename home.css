@@ -12,7 +12,7 @@ h1 {
   opacity: .7 ;    
 }  
 
-h2 { <!---why isnt this working?--->
+h2 { 
   border-bottom: solid; 
   border-bottom-color: Blue ; 
   background-color: LightGray ;
