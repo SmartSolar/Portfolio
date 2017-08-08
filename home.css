@@ -9,14 +9,14 @@ h1 {
   border-bottom: solid;      
   border-bottom-color: DodgerBlue ;  
   background-color: LightGray ;
-  opacity: .7 ;    
+  opacity: .8 ;    
 }  
 
 h2 { 
   border-bottom: solid; 
   border-bottom-color: DodgerBlue ; 
   background-color: LightGray ;
-  opacity: .7 ;  
+  opacity: .8 ;  
 }
 
 .container {
@@ -36,7 +36,7 @@ h2 {
   left: 100%;
   right: 0;
   background-color: #008CBA;
-  opacity: .7 ; 
+  opacity: .8 ; 
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -45,7 +45,7 @@ h2 {
 
 .box {
   background-color: #B0C4DE ; 
-  opacity: .8 ; 
+  opacity: .9 ; 
 }
 
 .container:hover .overlay {
@@ -67,7 +67,7 @@ h2 {
 
 .topnav {
     background-color: #333;
-    opacity: .7 ; 
+    opacity: .8 ; 
     overflow: hidden;
 }
 
