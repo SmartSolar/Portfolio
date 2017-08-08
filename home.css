@@ -5,6 +5,13 @@ body {
   padding: 90px;
 }
  
+h1 {
+  border-bottom: solid;
+  border-bottom-color: DodgerBlue ;
+  background-color: LightGray ;
+  opacity: .7 ; 
+}
+
 .container {
   position: relative; 
   width: 50%; 
