@@ -5,11 +5,18 @@ body {
   padding: 90px;
 }     
    
-h1 h2 {  
+h1 {  
   border-bottom: solid; 
   border-bottom-color: DodgerBlue ; 
   background-color: LightGray ;
   opacity: .7 ;   
+}
+
+h2 {
+  border-bottom: solid; 
+  border-bottom-color: DodgerBlue ; 
+  background-color: LightGray ;
+  opacity: .7 ;  
 }
 
 .container {
